@@ -13,6 +13,12 @@
 		E753D87019DB65E800626773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E753D86F19DB65E800626773 /* Images.xcassets */; };
 		E753D87319DB65E800626773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E753D87119DB65E800626773 /* LaunchScreen.xib */; };
 		E753D87F19DB65E800626773 /* Text_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D87E19DB65E800626773 /* Text_BookTests.swift */; };
+		E753D88A19DB661800626773 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D88819DB661800626773 /* ButtonViewController.swift */; };
+		E753D88B19DB661800626773 /* ButtonCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D88919DB661800626773 /* ButtonCodeViewController.swift */; };
+		E753D88D19DB662200626773 /* SplitAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D88C19DB662200626773 /* SplitAnimator.swift */; };
+		E753D89019DB662B00626773 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D88E19DB662B00626773 /* BookListViewController.swift */; };
+		E753D89119DB662B00626773 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D88F19DB662B00626773 /* ScannerViewController.swift */; };
+		E753D89319DB696200626773 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D89219DB696200626773 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		E753D87819DB65E800626773 /* Text BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E753D87D19DB65E800626773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E753D87E19DB65E800626773 /* Text_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_BookTests.swift; sourceTree = "<group>"; };
+		E753D88819DB661800626773 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		E753D88919DB661800626773 /* ButtonCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCodeViewController.swift; sourceTree = "<group>"; };
+		E753D88C19DB662200626773 /* SplitAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitAnimator.swift; sourceTree = "<group>"; };
+		E753D88E19DB662B00626773 /* BookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		E753D88F19DB662B00626773 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		E753D89219DB696200626773 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,12 @@
 		E753D86519DB65E800626773 /* Text Book */ = {
 			isa = PBXGroup;
 			children = (
+				E753D89219DB696200626773 /* BookTableViewCell.swift */,
+				E753D88E19DB662B00626773 /* BookListViewController.swift */,
+				E753D88F19DB662B00626773 /* ScannerViewController.swift */,
+				E753D88819DB661800626773 /* ButtonViewController.swift */,
+				E753D88C19DB662200626773 /* SplitAnimator.swift */,
+				E753D88919DB661800626773 /* ButtonCodeViewController.swift */,
 				E753D86819DB65E800626773 /* AppDelegate.swift */,
 				E753D86A19DB65E800626773 /* ViewController.swift */,
 				E753D86C19DB65E800626773 /* Main.storyboard */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E753D89319DB696200626773 /* BookTableViewCell.swift in Sources */,
+				E753D89119DB662B00626773 /* ScannerViewController.swift in Sources */,
 				E753D86B19DB65E800626773 /* ViewController.swift in Sources */,
+				E753D88A19DB661800626773 /* ButtonViewController.swift in Sources */,
 				E753D86919DB65E800626773 /* AppDelegate.swift in Sources */,
+				E753D88B19DB661800626773 /* ButtonCodeViewController.swift in Sources */,
+				E753D88D19DB662200626773 /* SplitAnimator.swift in Sources */,
+				E753D89019DB662B00626773 /* BookListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
