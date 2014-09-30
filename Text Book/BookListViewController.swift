@@ -45,8 +45,8 @@ class BookListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         var cell:  BookTableViewCell = tableView.dequeueReusableCellWithIdentifier("BookCell") as BookTableViewCell
         
-        cell.titleLabel.text = "Calculus 2"
-        cell.editionLabel.text = "16th edition"
+        cell.titleLabel.text = "Calculus 3"
+        cell.editionLabel.text = "12th edition"
         cell.priceLabel.text = "$70.00"
         cell.bookImage.image = UIImage(named: "calc")
         
