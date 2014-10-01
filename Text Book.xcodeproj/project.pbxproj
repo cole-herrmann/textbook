@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E70E541319DBA0760008B382 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E540C19DBA0440008B382 /* Cartography.framework */; };
-		E70E541519DBA0AC0008B382 /* Cartography.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E70E540C19DBA0440008B382 /* Cartography.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E753D86919DB65E800626773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D86819DB65E800626773 /* AppDelegate.swift */; };
 		E753D86B19DB65E800626773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D86A19DB65E800626773 /* ViewController.swift */; };
 		E753D86E19DB65E800626773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E753D86C19DB65E800626773 /* Main.storyboard */; };
@@ -24,34 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E70E540B19DBA0440008B382 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E70E540419DBA0440008B382 /* Cartography.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54C96A11195063CD000CDD27;
-			remoteInfo = "Cartography-iOS";
-		};
-		E70E540D19DBA0440008B382 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E70E540419DBA0440008B382 /* Cartography.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54C96A1C195063CD000CDD27;
-			remoteInfo = "Cartography-iOS-Tests";
-		};
-		E70E540F19DBA0440008B382 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E70E540419DBA0440008B382 /* Cartography.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54F6A838195C20C100313D24;
-			remoteInfo = "Cartography-Mac";
-		};
-		E70E541119DBA0440008B382 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E70E540419DBA0440008B382 /* Cartography.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54F6A842195C20C200313D24;
-			remoteInfo = "Cartography-Mac-Tests";
-		};
 		E753D87919DB65E800626773 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E753D85B19DB65E800626773 /* Project object */;
@@ -68,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E70E541519DBA0AC0008B382 /* Cartography.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +45,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E70E540419DBA0440008B382 /* Cartography.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cartography.xcodeproj; path = Cartography/Cartography.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E753D86319DB65E800626773 /* Text Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E753D86719DB65E800626773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E753D86819DB65E800626773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70E541319DBA0760008B382 /* Cartography.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,17 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E70E540519DBA0440008B382 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E70E540C19DBA0440008B382 /* Cartography.framework */,
-				E70E540E19DBA0440008B382 /* Cartography-iOS-Tests.xctest */,
-				E70E541019DBA0440008B382 /* Cartography.framework */,
-				E70E541219DBA0440008B382 /* Cartography-Mac-Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E753D85A19DB65E800626773 = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +113,6 @@
 				E753D86C19DB65E800626773 /* Main.storyboard */,
 				E753D86F19DB65E800626773 /* Images.xcassets */,
 				E753D87119DB65E800626773 /* LaunchScreen.xib */,
-				E70E540419DBA0440008B382 /* Cartography.xcodeproj */,
 				E753D86619DB65E800626773 /* Supporting Files */,
 			);
 			path = "Text Book";
@@ -256,12 +211,6 @@
 			mainGroup = E753D85A19DB65E800626773;
 			productRefGroup = E753D86419DB65E800626773 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E70E540519DBA0440008B382 /* Products */;
-					ProjectRef = E70E540419DBA0440008B382 /* Cartography.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E753D86219DB65E800626773 /* Text Book */,
@@ -269,37 +218,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E70E540C19DBA0440008B382 /* Cartography.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Cartography.framework;
-			remoteRef = E70E540B19DBA0440008B382 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E70E540E19DBA0440008B382 /* Cartography-iOS-Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Cartography-iOS-Tests.xctest";
-			remoteRef = E70E540D19DBA0440008B382 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E70E541019DBA0440008B382 /* Cartography.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Cartography.framework;
-			remoteRef = E70E540F19DBA0440008B382 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E70E541219DBA0440008B382 /* Cartography-Mac-Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Cartography-Mac-Tests.xctest";
-			remoteRef = E70E541119DBA0440008B382 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E753D86119DB65E800626773 /* Resources */ = {
